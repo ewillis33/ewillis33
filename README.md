@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ewillis33 
-- 👀 I’m interested in DevOps
+- 👀 I’m interested in Linux and Cloud Engineering
 - 🌱 I’m currently learning Linux & Python
 - 💞️ I’m looking to collaborate on any project with Linux
 - 📫 How to reach me ...
