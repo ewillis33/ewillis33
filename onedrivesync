@@ -1,0 +1,15 @@
+#bash script
+
+#!/bin/bash
+
+# Set the source folder to backup (replace with your desired folder path)
+source_folder="/Users/yourusername/Documents/ImportantFiles" 
+
+# Set the OneDrive destination folder (make sure this folder exists in your OneDrive)
+onedrive_folder="/Users/yourusername/OneDrive/Backup" 
+
+# Backup command using rsync 
+rsync -avz --delete  "$source_folder/" "$onedrive_folder/" 
+
+# Optional: Add a notification if backup is successful
+echo "Backup to OneDrive completed successfully!" 
