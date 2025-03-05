@@ -1,0 +1,7 @@
+## replace "your_file.txt with the file name.
+## "r" = read
+
+with open("your_file.txt", "r") as file:
+    content = file.read()
+    print(content)
+
